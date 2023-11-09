@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Елена</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Елена Берчанова</div>
+
+    <div class="block">
+      <div class="block-title">мои контакты</div>
+      <div class="block-entries">
+        <div class="entry_1">
+          <a href="http://t.me/elenaberch" target="_blank"> telegram</a>
+        </div>
+        </div>
+        <div class="entry_1">
+          <a href="https://www.instagram.com/lkkravchenko1" target="_blank">instagram</a>
+        </div>
+        <div class="entry_1">
+          <a href="https://vk.com/lkkravchenko1" target="_blank">Вконтакте
+        
+          </a>
+        </div>
+        <div class="entry_1">
+          <a href="https://github.com/ElenaB-QA" target="_blank">git</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">Обо мне:</div>
+      <div class="entry">
+      <h> Привет! В тестировании я уже три года. Занимаюсь функциональным и нефункциональным тестированием, включая тестирование декстопных и мобильных приложений  </h>
+      </div> 
+
+      <div class="block">
+       <div class="block-title">Мои инструменты:</div>
+       </div>
+       <div class="entry">
+        <h> тестирование вэб- Devtools <br/>
+          тестирование мобильных приложений- Charles <br/>
+          тестирование API- postman <br/>
+          хранение документации- Confluence, Swagger <br/>
+          задачи- Jira <br/>
+          TMS- X-Ray <br/>
+           дизайн- Figma <br/>
+          логи- Sentry
+        </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
